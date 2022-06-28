@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+### To use with scripts/babbage/mkfiles.sh cluster
 ### Pass as an argument the number of the pool that yoou want to update: 1,2 or 3
 
 set -e
