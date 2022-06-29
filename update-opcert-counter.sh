@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-### To use with scripts/babbage/mkfiles.sh cluster
-### Pass as an argument the number of the pool that you want to update: 1,2 or 3
+# To use with scripts/babbage/mkfiles.sh cluster  
+# https://github.com/input-output-hk/cardano-node/blob/master/scripts/babbage/mkfiles.sh
+#
+# Pass as an argument the number of the pool that you want to update: 1,2 or 3
 
 set -e
-# Unofficial bash strict mode.
-# See: http://redsymbol.net/articles/unofficial-bash-strict-mode/
 set -u
 set -o pipefail
 
